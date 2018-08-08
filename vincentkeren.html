@@ -1,0 +1,99 @@
+<!-- Soal 3 yang sabar om   -->
+<!-- Hidup ini ujian asek -->
+<!-- Nangningningnangningnungtanginungnginangninungnginangnnginung -->
+<!-- <html>
+    <body>
+        <form id="form1" runat="server">
+            <div class="container">
+                <div class="main">
+                    <h2>UJIAN CIE</h2>
+                    <form id="form_id" method="post" name="myform">
+                    <label> User Name :</label>
+                    <input type="text" name="username" id="username" />
+                    <br><br>
+                    <label>
+                        Password :</label>
+                    <input type="password" name="password" id="password" />
+                    <input type="button" value="Login" id="submit" onclick="validate();" />
+                    </form>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
+        
+<script>
+    var usernamelist = [['vincentkeren','abc123'],['rianbocah','iloveagus']]
+     var username1 = usernamelist[0][0]
+     var username2 = usernamelist[1][0]
+     var pass1 = usernamelist[0][1]
+     var pass2 = usernamelist[1][1]
+    
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+              
+            
+            if (username == username1 && password == pass1) 
+            {
+               alert('Login Success')
+            }
+            else if (username == username2 && password == pass2) 
+            {
+                alert('Login Success')
+            }
+            else {
+              alert('Login Failed')
+                }
+
+            if (username == null || username == "") {
+                alert("Please enter the username.");
+                return false;
+            }
+            if (password == null || password == "") {
+                alert("Please enter the password.");
+                return false;
+            }
+            
+        } 
+</script> -->
+
+
+<!-- Soal 4  -->
+<!-- Mpret belum slesai -->
+<form>
+      Tampilan: <input type="number" id="scs" name="scs" value="0" size="2"  /><br/>
+        <input type="button" id="btnct" value="START" onclick="countdownTimer()"/>
+        </form>
+        Countdown Timer: &nbsp; <span id="showhrs">00 Hour</span>:<span id="showmnts">00 Minutes </span>:<span id="showscs">00 Minutes </span>
+       
+       <script>
+        setInterval(waktu,scs)
+        class waktu 
+        {
+            constructor(jam,menit,detik)
+            {
+                this.Jam = jam
+                this.Menit = menit;
+                this.Detik = detik;
+            }
+        }
+        function converterTime(jam, menit, detik, val) 
+            var hrs = 0
+            var mnts = 0
+            var scs = 0
+
+    {
+        if (scs>60)
+        {
+            mnts+1
+        }
+        if (mnts>60)
+        {
+            hrs+1
+        }
+    }
+
+       </script>
+
+      
